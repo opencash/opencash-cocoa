@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76C6164A1843C507009678E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
+		76C616541843C507009678E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616521843C507009678E3 /* InfoPlist.strings */; };
+		76C616581843C507009678E3 /* OpenCash_Framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C616571843C507009678E3 /* OpenCash_Framework.m */; };
+		76C6165F1843C507009678E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6165E1843C507009678E3 /* XCTest.framework */; };
+		76C616601843C507009678E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
+		76C616631843C507009678E3 /* OpenCash-Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616461843C507009678E3 /* OpenCash-Framework.framework */; };
+		76C616691843C507009678E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616671843C507009678E3 /* InfoPlist.strings */; };
+		76C6166B1843C507009678E3 /* OpenCash_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76C616611843C507009678E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C6163D1843C507009678E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C616451843C507009678E3;
+			remoteInfo = "OpenCash-Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76C616461843C507009678E3 /* OpenCash-Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "OpenCash-Framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C616491843C507009678E3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		76C6164C1843C507009678E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76C6164D1843C507009678E3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		76C6164E1843C507009678E3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		76C616511843C507009678E3 /* OpenCash-Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-Framework-Info.plist"; sourceTree = "<group>"; };
+		76C616531843C507009678E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76C616551843C507009678E3 /* OpenCash-Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCash-Framework-Prefix.pch"; sourceTree = "<group>"; };
+		76C616561843C507009678E3 /* OpenCash_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCash_Framework.h; sourceTree = "<group>"; };
+		76C616571843C507009678E3 /* OpenCash_Framework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_Framework.m; sourceTree = "<group>"; };
+		76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenCash-FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C6165E1843C507009678E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		76C616661843C507009678E3 /* OpenCash-FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-FrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		76C616681843C507009678E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_FrameworkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C616421843C507009678E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C6164A1843C507009678E3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C6165A1843C507009678E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C616631843C507009678E3 /* OpenCash-Framework.framework in Frameworks */,
+				76C616601843C507009678E3 /* Cocoa.framework in Frameworks */,
+				76C6165F1843C507009678E3 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C6163C1843C507009678E3 = {
+			isa = PBXGroup;
+			children = (
+				76C6164F1843C507009678E3 /* OpenCash-Framework */,
+				76C616641843C507009678E3 /* OpenCash-FrameworkTests */,
+				76C616481843C507009678E3 /* Frameworks */,
+				76C616471843C507009678E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76C616471843C507009678E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C616461843C507009678E3 /* OpenCash-Framework.framework */,
+				76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76C616481843C507009678E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76C616491843C507009678E3 /* Cocoa.framework */,
+				76C6165E1843C507009678E3 /* XCTest.framework */,
+				76C6164B1843C507009678E3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76C6164B1843C507009678E3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76C6164C1843C507009678E3 /* Foundation.framework */,
+				76C6164D1843C507009678E3 /* CoreData.framework */,
+				76C6164E1843C507009678E3 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		76C6164F1843C507009678E3 /* OpenCash-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				76C616561843C507009678E3 /* OpenCash_Framework.h */,
+				76C616571843C507009678E3 /* OpenCash_Framework.m */,
+				76C616501843C507009678E3 /* Supporting Files */,
+			);
+			path = "OpenCash-Framework";
+			sourceTree = "<group>";
+		};
+		76C616501843C507009678E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C616511843C507009678E3 /* OpenCash-Framework-Info.plist */,
+				76C616521843C507009678E3 /* InfoPlist.strings */,
+				76C616551843C507009678E3 /* OpenCash-Framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76C616641843C507009678E3 /* OpenCash-FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */,
+				76C616651843C507009678E3 /* Supporting Files */,
+			);
+			path = "OpenCash-FrameworkTests";
+			sourceTree = "<group>";
+		};
+		76C616651843C507009678E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C616661843C507009678E3 /* OpenCash-FrameworkTests-Info.plist */,
+				76C616671843C507009678E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76C616431843C507009678E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76C616451843C507009678E3 /* OpenCash-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-Framework" */;
+			buildPhases = (
+				76C616411843C507009678E3 /* Sources */,
+				76C616421843C507009678E3 /* Frameworks */,
+				76C616431843C507009678E3 /* Headers */,
+				76C616441843C507009678E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenCash-Framework";
+			productName = "OpenCash-Framework";
+			productReference = 76C616461843C507009678E3 /* OpenCash-Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76C6165C1843C507009678E3 /* OpenCash-FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C616711843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-FrameworkTests" */;
+			buildPhases = (
+				76C616591843C507009678E3 /* Sources */,
+				76C6165A1843C507009678E3 /* Frameworks */,
+				76C6165B1843C507009678E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76C616621843C507009678E3 /* PBXTargetDependency */,
+			);
+			name = "OpenCash-FrameworkTests";
+			productName = "OpenCash-FrameworkTests";
+			productReference = 76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76C6163D1843C507009678E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Serge Gebhardt";
+				TargetAttributes = {
+					76C6165C1843C507009678E3 = {
+						TestTargetID = 76C616451843C507009678E3;
+					};
+				};
+			};
+			buildConfigurationList = 76C616401843C507009678E3 /* Build configuration list for PBXProject "OpenCash-Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76C6163C1843C507009678E3;
+			productRefGroup = 76C616471843C507009678E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76C616451843C507009678E3 /* OpenCash-Framework */,
+				76C6165C1843C507009678E3 /* OpenCash-FrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76C616441843C507009678E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C616541843C507009678E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C6165B1843C507009678E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C616691843C507009678E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C616411843C507009678E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C616581843C507009678E3 /* OpenCash_Framework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C616591843C507009678E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C6166B1843C507009678E3 /* OpenCash_FrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76C616621843C507009678E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76C616451843C507009678E3 /* OpenCash-Framework */;
+			targetProxy = 76C616611843C507009678E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76C616521843C507009678E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C616531843C507009678E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76C616671843C507009678E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C616681843C507009678E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76C6166C1843C507009678E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		76C6166D1843C507009678E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		76C6166F1843C507009678E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
+				INFOPLIST_FILE = "OpenCash-Framework/OpenCash-Framework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		76C616701843C507009678E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
+				INFOPLIST_FILE = "OpenCash-Framework/OpenCash-Framework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		76C616721843C507009678E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash-Framework.framework/Versions/A/OpenCash-Framework";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenCash-FrameworkTests/OpenCash-FrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		76C616731843C507009678E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash-Framework.framework/Versions/A/OpenCash-Framework";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
+				INFOPLIST_FILE = "OpenCash-FrameworkTests/OpenCash-FrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76C616401843C507009678E3 /* Build configuration list for PBXProject "OpenCash-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C6166C1843C507009678E3 /* Debug */,
+				76C6166D1843C507009678E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C6166F1843C507009678E3 /* Debug */,
+				76C616701843C507009678E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76C616711843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C616721843C507009678E3 /* Debug */,
+				76C616731843C507009678E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76C6163D1843C507009678E3 /* Project object */;
+}
