@@ -377,8 +377,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
-				INFOPLIST_FILE = "OpenCash-Framework/OpenCash-Framework-Info.plist";
+				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
+				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-Framework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -392,8 +392,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
-				INFOPLIST_FILE = "OpenCash-Framework/OpenCash-Framework-Info.plist";
+				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
+				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-Framework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -402,19 +402,19 @@
 		76C616721843C507009678E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash-Framework.framework/Versions/A/OpenCash-Framework";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Versions/A/OpenCash";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
+				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "OpenCash-FrameworkTests/OpenCash-FrameworkTests-Info.plist";
+				INFOPLIST_FILE = "Tests/Supporting Files/OpenCash-FrameworkTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -424,15 +424,15 @@
 		76C616731843C507009678E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash-Framework.framework/Versions/A/OpenCash-Framework";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Versions/A/OpenCash";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
-				INFOPLIST_FILE = "OpenCash-FrameworkTests/OpenCash-FrameworkTests-Info.plist";
+				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Supporting Files/OpenCash-FrameworkTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
