@@ -10,4 +10,9 @@
 
 @implementation OCAAccount
 
++ (NSString *)getString;
+{
+  return @"blah";
+}
+
 @end

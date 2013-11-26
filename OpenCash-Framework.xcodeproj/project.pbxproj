@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		762922DE184431B100661F9F /* OCADocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 762922DC184431B100661F9F /* OCADocumentController.h */; };
 		762922DF184431B100661F9F /* OCADocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762922DD184431B100661F9F /* OCADocumentController.m */; };
-		76B4626018442D8C00B15055 /* OCAAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B4625E18442D8C00B15055 /* OCAAccount.h */; };
+		76B4626018442D8C00B15055 /* OCAAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B4625E18442D8C00B15055 /* OCAAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76B4626118442D8C00B15055 /* OCAAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B4625F18442D8C00B15055 /* OCAAccount.m */; };
 		76C6164A1843C507009678E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
 		76C616541843C507009678E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616521843C507009678E3 /* InfoPlist.strings */; };
@@ -18,6 +18,7 @@
 		76C616631843C507009678E3 /* OpenCash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616461843C507009678E3 /* OpenCash.framework */; };
 		76C616691843C507009678E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616671843C507009678E3 /* InfoPlist.strings */; };
 		76C6166B1843C507009678E3 /* OpenCash_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */; };
+		76EFAEF118452C9D00F86487 /* OpenCash.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EFAEF018452C9D00F86487 /* OpenCash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		76C616661843C507009678E3 /* OpenCash-FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-FrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		76C616681843C507009678E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_FrameworkTests.m; sourceTree = "<group>"; };
+		76EFAEF018452C9D00F86487 /* OpenCash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCash.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		76B4625C18442CB300B15055 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				76EFAEF018452C9D00F86487 /* OpenCash.h */,
 				762922DB1844319200661F9F /* Controllers */,
 				76B4625D18442D5D00B15055 /* Models */,
 				76C616501843C507009678E3 /* Supporting Files */,
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B4626018442D8C00B15055 /* OCAAccount.h in Headers */,
+				76EFAEF118452C9D00F86487 /* OpenCash.h in Headers */,
 				762922DE184431B100661F9F /* OCADocumentController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

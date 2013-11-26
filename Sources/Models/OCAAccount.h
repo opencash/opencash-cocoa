@@ -10,4 +10,6 @@
 
 @interface OCAAccount : NSObject
 
++ (NSString *)getString;
+
 @end
