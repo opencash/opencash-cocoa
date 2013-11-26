@@ -72,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				76B4625D18442D5D00B15055 /* Models */,
+				76C616501843C507009678E3 /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -89,8 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				76B4625C18442CB300B15055 /* Sources */,
-				76C6164F1843C507009678E3 /* OpenCash-Framework */,
-				76C616641843C507009678E3 /* OpenCash-FrameworkTests */,
+				76C616641843C507009678E3 /* Tests */,
 				76C616481843C507009678E3 /* Frameworks */,
 				76C616471843C507009678E3 /* Products */,
 			);
@@ -125,14 +125,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		76C6164F1843C507009678E3 /* OpenCash-Framework */ = {
-			isa = PBXGroup;
-			children = (
-				76C616501843C507009678E3 /* Supporting Files */,
-			);
-			path = "OpenCash-Framework";
-			sourceTree = "<group>";
-		};
 		76C616501843C507009678E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,16 +132,16 @@
 				76C616521843C507009678E3 /* InfoPlist.strings */,
 				76C616551843C507009678E3 /* OpenCash-Framework-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76C616641843C507009678E3 /* OpenCash-FrameworkTests */ = {
+		76C616641843C507009678E3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */,
 				76C616651843C507009678E3 /* Supporting Files */,
 			);
-			path = "OpenCash-FrameworkTests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		76C616651843C507009678E3 /* Supporting Files */ = {
@@ -158,7 +150,7 @@
 				76C616661843C507009678E3 /* OpenCash-FrameworkTests-Info.plist */,
 				76C616671843C507009678E3 /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
