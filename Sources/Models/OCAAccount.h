@@ -1,5 +1,5 @@
 //
-//  OpenCash_Framework.h
+//  OCAAccount.h
 //  OpenCash-Framework
 //
 //  Created by Serge Gebhardt on 11/25/13.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface OpenCash_Framework : NSObject
+@interface OCAAccount : NSObject
 
 @end
