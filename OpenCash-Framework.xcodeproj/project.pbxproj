@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762922DE184431B100661F9F /* OCADocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 762922DC184431B100661F9F /* OCADocumentController.h */; };
+		762922DF184431B100661F9F /* OCADocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762922DD184431B100661F9F /* OCADocumentController.m */; };
 		76B4626018442D8C00B15055 /* OCAAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B4625E18442D8C00B15055 /* OCAAccount.h */; };
 		76B4626118442D8C00B15055 /* OCAAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B4625F18442D8C00B15055 /* OCAAccount.m */; };
 		76C6164A1843C507009678E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		762922DC184431B100661F9F /* OCADocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCADocumentController.h; sourceTree = "<group>"; };
+		762922DD184431B100661F9F /* OCADocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCADocumentController.m; sourceTree = "<group>"; };
 		76B4625E18442D8C00B15055 /* OCAAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAAccount.h; sourceTree = "<group>"; };
 		76B4625F18442D8C00B15055 /* OCAAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAAccount.m; sourceTree = "<group>"; };
 		76C616461843C507009678E3 /* OpenCash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,9 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		762922DB1844319200661F9F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				762922DC184431B100661F9F /* OCADocumentController.h */,
+				762922DD184431B100661F9F /* OCADocumentController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		76B4625C18442CB300B15055 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				762922DB1844319200661F9F /* Controllers */,
 				76B4625D18442D5D00B15055 /* Models */,
 				76C616501843C507009678E3 /* Supporting Files */,
 			);
@@ -161,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B4626018442D8C00B15055 /* OCAAccount.h in Headers */,
+				762922DE184431B100661F9F /* OCADocumentController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +224,7 @@
 		76C6163D1843C507009678E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = OCA;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Serge Gebhardt";
 				TargetAttributes = {
@@ -259,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762922DF184431B100661F9F /* OCADocumentController.m in Sources */,
 				76B4626118442D8C00B15055 /* OCAAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
