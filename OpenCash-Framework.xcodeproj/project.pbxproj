@@ -12,7 +12,7 @@
 		76C616581843C507009678E3 /* OpenCash_Framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C616571843C507009678E3 /* OpenCash_Framework.m */; };
 		76C6165F1843C507009678E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6165E1843C507009678E3 /* XCTest.framework */; };
 		76C616601843C507009678E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
-		76C616631843C507009678E3 /* OpenCash-Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616461843C507009678E3 /* OpenCash-Framework.framework */; };
+		76C616631843C507009678E3 /* OpenCash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616461843C507009678E3 /* OpenCash.framework */; };
 		76C616691843C507009678E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616671843C507009678E3 /* InfoPlist.strings */; };
 		76C6166B1843C507009678E3 /* OpenCash_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		76C616461843C507009678E3 /* OpenCash-Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "OpenCash-Framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C616461843C507009678E3 /* OpenCash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C616491843C507009678E3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		76C6164C1843C507009678E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76C6164D1843C507009678E3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -38,7 +38,7 @@
 		76C616551843C507009678E3 /* OpenCash-Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCash-Framework-Prefix.pch"; sourceTree = "<group>"; };
 		76C616561843C507009678E3 /* OpenCash_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCash_Framework.h; sourceTree = "<group>"; };
 		76C616571843C507009678E3 /* OpenCash_Framework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_Framework.m; sourceTree = "<group>"; };
-		76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenCash-FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "OpenCash-FrameworkTests.xctest"; path = OpenCashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C6165E1843C507009678E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		76C616661843C507009678E3 /* OpenCash-FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-FrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		76C616681843C507009678E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C616631843C507009678E3 /* OpenCash-Framework.framework in Frameworks */,
+				76C616631843C507009678E3 /* OpenCash.framework in Frameworks */,
 				76C616601843C507009678E3 /* Cocoa.framework in Frameworks */,
 				76C6165F1843C507009678E3 /* XCTest.framework in Frameworks */,
 			);
@@ -80,7 +80,7 @@
 		76C616471843C507009678E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76C616461843C507009678E3 /* OpenCash-Framework.framework */,
+				76C616461843C507009678E3 /* OpenCash.framework */,
 				76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */,
 			);
 			name = Products;
@@ -157,9 +157,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		76C616451843C507009678E3 /* OpenCash-Framework */ = {
+		76C616451843C507009678E3 /* OpenCash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-Framework" */;
+			buildConfigurationList = 76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash" */;
 			buildPhases = (
 				76C616411843C507009678E3 /* Sources */,
 				76C616421843C507009678E3 /* Frameworks */,
@@ -170,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = "OpenCash-Framework";
+			name = OpenCash;
 			productName = "OpenCash-Framework";
-			productReference = 76C616461843C507009678E3 /* OpenCash-Framework.framework */;
+			productReference = 76C616461843C507009678E3 /* OpenCash.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		76C6165C1843C507009678E3 /* OpenCash-FrameworkTests */ = {
+		76C6165C1843C507009678E3 /* OpenCashTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76C616711843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-FrameworkTests" */;
+			buildConfigurationList = 76C616711843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCashTests" */;
 			buildPhases = (
 				76C616591843C507009678E3 /* Sources */,
 				76C6165A1843C507009678E3 /* Frameworks */,
@@ -188,7 +188,7 @@
 			dependencies = (
 				76C616621843C507009678E3 /* PBXTargetDependency */,
 			);
-			name = "OpenCash-FrameworkTests";
+			name = OpenCashTests;
 			productName = "OpenCash-FrameworkTests";
 			productReference = 76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -219,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76C616451843C507009678E3 /* OpenCash-Framework */,
-				76C6165C1843C507009678E3 /* OpenCash-FrameworkTests */,
+				76C616451843C507009678E3 /* OpenCash */,
+				76C6165C1843C507009678E3 /* OpenCashTests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 /* Begin PBXTargetDependency section */
 		76C616621843C507009678E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76C616451843C507009678E3 /* OpenCash-Framework */;
+			target = 76C616451843C507009678E3 /* OpenCash */;
 			targetProxy = 76C616611843C507009678E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,21 +441,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-Framework" */ = {
+		76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76C6166F1843C507009678E3 /* Debug */,
 				76C616701843C507009678E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		76C616711843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-FrameworkTests" */ = {
+		76C616711843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCashTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76C616721843C507009678E3 /* Debug */,
 				76C616731843C507009678E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
