@@ -38,7 +38,7 @@
 		76C616551843C507009678E3 /* OpenCash-Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCash-Framework-Prefix.pch"; sourceTree = "<group>"; };
 		76C616561843C507009678E3 /* OpenCash_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCash_Framework.h; sourceTree = "<group>"; };
 		76C616571843C507009678E3 /* OpenCash_Framework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_Framework.m; sourceTree = "<group>"; };
-		76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "OpenCash-FrameworkTests.xctest"; path = OpenCashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C6165D1843C507009678E3 /* OpenCashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C6165E1843C507009678E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		76C616661843C507009678E3 /* OpenCash-FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-FrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		76C616681843C507009678E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				76C616461843C507009678E3 /* OpenCash.framework */,
-				76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */,
+				76C6165D1843C507009678E3 /* OpenCashTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 			);
 			name = OpenCashTests;
 			productName = "OpenCash-FrameworkTests";
-			productReference = 76C6165D1843C507009678E3 /* OpenCash-FrameworkTests.xctest */;
+			productReference = 76C6165D1843C507009678E3 /* OpenCashTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
