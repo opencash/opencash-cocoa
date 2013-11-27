@@ -8,8 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
+#ifdef __cplusplus
+#import <opencash/model/Account.h>
+typedef opencash::model::Account::AccountPtr AccountPtr;
+#else
+typedef void* AccountPtr;
+#endif
+
 @interface OCAAccount : NSObject
 
-+ (NSString *)getString;
+@property (assign) NSString *name;
+@property (assign) NSString *descr;
+@property (assign, readonly) NSArray *children;
+
+- (id)initWithAccount:(AccountPtr)account;
+- (id)init __attribute__((unavailable("not an initializer")));
+
+- (OCAAccount *)parent;
+- (void)setParent:(OCAAccount *)parent;
 
 @end
