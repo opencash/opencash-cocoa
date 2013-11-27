@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OCAAccount.h"
 
 @interface OCADocumentController : NSObject
+
+- (id)initWithFilename:(NSString *)aName shouldInitialize:(bool)shouldInitialize;
+- (NSArray *)retrieveAccounts;
+- (OCAAccount *)newAccount;
+- (void)persistAccount:(OCAAccount *)account;
 
 @end

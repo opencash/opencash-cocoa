@@ -7,7 +7,7 @@
 //
 
 #import "OCAAccount.h"
-#import "OCAccountCppMapper.h"
+#import "OCAAccountCppMapper.h"
 #import <opencash/model/Account.h>
 #import <opencash/controller/ModelObserver.h>
 #import <Poco/Delegate.h>
@@ -111,12 +111,12 @@ NSKeyValueChange convertChangeTypeToNSKeyValueChange(ChangeType change)
 }
 };
 
-@interface OCAccount ()
+@interface OCAAccount ()
 @property (assign) AccountPtr _account;
 @property (assign) std::shared_ptr<KvcProxy> _kvcProxy;
 @end
 
-@implementation OCAccount
+@implementation OCAAccount
 
 @synthesize _account;
 @synthesize _kvcProxy;
@@ -170,19 +170,19 @@ NSKeyValueChange convertChangeTypeToNSKeyValueChange(ChangeType change)
   _account->setDescr([description UTF8String]);
 }
 
-- (OCAccount *)parent;
+- (OCAAccount *)parent;
 {
   AccountPtr parent = _account->getParent();
-  OCAccount *ret = nil;
+  OCAAccount *ret = nil;
 
   if (parent) {
-    ret = [[OCAccountCppMapper sharedInstance] getOrCreate:parent];
+    ret = [[OCAAccountCppMapper sharedInstance] getOrCreate:parent];
   }
 
   return ret;
 }
 
-- (void)setParent:(OCAccount *)parent;
+- (void)setParent:(OCAAccount *)parent;
 {
   _account->setParent(parent._account);
 }
@@ -191,7 +191,7 @@ NSKeyValueChange convertChangeTypeToNSKeyValueChange(ChangeType change)
 {
   NSMutableArray *ret = [NSMutableArray array];
   for (auto & child : _account->getChildren()) {
-    [ret addObject:[[OCAccountCppMapper sharedInstance] getOrCreate:child.lock()]];
+    [ret addObject:[[OCAAccountCppMapper sharedInstance] getOrCreate:child.lock()]];
   }
   return ret;
 }

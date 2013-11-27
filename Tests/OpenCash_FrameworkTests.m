@@ -30,7 +30,7 @@
   XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
-- (void)createAccount
+- (void)testCreateAccount
 {
   XCTFail(@"asdf");
 }
