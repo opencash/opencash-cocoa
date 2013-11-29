@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "76C616451843C507009678E3"
-               BuildableName = "OpenCash.framework"
-               BlueprintName = "OpenCash"
+               BuildableName = "OpenCash-OSX.framework"
+               BlueprintName = "OpenCash-OSX"
                ReferencedContainer = "container:OpenCash-Framework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

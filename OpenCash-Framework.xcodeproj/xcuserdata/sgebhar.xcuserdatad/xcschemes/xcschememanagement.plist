@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>OpenCash-Framework.xcscheme</key>
+		<key>OpenCash-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>OpenCash-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>767AA27018493A8700C8B6EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>767AA27E18493A8700C8B6EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>76C616451843C507009678E3</key>
 		<dict>
 			<key>primary</key>
