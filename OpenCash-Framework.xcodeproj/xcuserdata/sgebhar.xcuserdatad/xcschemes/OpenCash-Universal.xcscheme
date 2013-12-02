@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7605AEB7184CC791001FFBC4"
-               BuildableName = "libOpenCash-iOS.a"
-               BlueprintName = "OpenCash-iOS"
+               BlueprintIdentifier = "7605AF23184CF2E7001FFBC4"
+               BuildableName = "OpenCash-Universal.framework"
+               BlueprintName = "OpenCash-Universal"
                ReferencedContainer = "container:OpenCash-Framework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7605AEC4184CC792001FFBC4"
-               BuildableName = "OpenCash-iOSTests.xctest"
-               BlueprintName = "OpenCash-iOSTests"
+               BlueprintIdentifier = "7605AF33184CF2E7001FFBC4"
+               BuildableName = "OpenCash-UniversalTests.xctest"
+               BlueprintName = "OpenCash-UniversalTests"
                ReferencedContainer = "container:OpenCash-Framework.xcodeproj">
             </BuildableReference>
          </TestableReference>

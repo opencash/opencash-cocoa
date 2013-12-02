@@ -7,16 +7,71 @@
 		<key>OpenCash-OSX.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+		<key>OpenCash-Universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>OpenCash-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>OpenCash.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7605AEB7184CC791001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AEC4184CC792001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AEDD184CD3B9001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AEF4184CE270001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AF00184CE271001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AF23184CF2E7001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AF33184CF2E7001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AF4C184CF317001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7605AF5C184CF317001FFBC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>767AA27018493A8700C8B6EF</key>
 		<dict>
 			<key>primary</key>

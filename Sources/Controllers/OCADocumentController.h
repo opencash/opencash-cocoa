@@ -16,4 +16,6 @@
 - (OCAAccount *)newAccount;
 - (void)persistAccount:(OCAAccount *)account;
 
++ (NSString *)getAString;
+
 @end

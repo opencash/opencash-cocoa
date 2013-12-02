@@ -54,4 +54,9 @@
 {
 }
 
++ (NSString *)getAString;
+{
+  return @"blaaaaH";
+}
+
 @end

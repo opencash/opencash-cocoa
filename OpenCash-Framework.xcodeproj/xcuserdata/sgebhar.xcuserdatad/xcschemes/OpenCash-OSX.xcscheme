@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76C616451843C507009678E3"
-               BuildableName = "OpenCash-OSX.framework"
+               BlueprintIdentifier = "7605AEF4184CE270001FFBC4"
+               BuildableName = "libOpenCash-OSX.a"
                BlueprintName = "OpenCash-OSX"
                ReferencedContainer = "container:OpenCash-Framework.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug-static"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">

@@ -7,38 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		762922DE184431B100661F9F /* OCADocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 762922DC184431B100661F9F /* OCADocumentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		762922DF184431B100661F9F /* OCADocumentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 762922DD184431B100661F9F /* OCADocumentController.mm */; };
-		767AA27318493A8700C8B6EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767AA27218493A8700C8B6EF /* Foundation.framework */; };
-		767AA29718493BEC00C8B6EF /* OCADocumentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 762922DD184431B100661F9F /* OCADocumentController.mm */; };
-		767AA29818493BEC00C8B6EF /* OCAAccount.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76B4625F18442D8C00B15055 /* OCAAccount.mm */; };
-		767AA29918493BEC00C8B6EF /* OCAAccountCppMapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76D14EBA1845734200B34D57 /* OCAAccountCppMapper.mm */; };
-		76B4626018442D8C00B15055 /* OCAAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B4625E18442D8C00B15055 /* OCAAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B4626118442D8C00B15055 /* OCAAccount.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76B4625F18442D8C00B15055 /* OCAAccount.mm */; };
-		76C6164A1843C507009678E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
-		76C616541843C507009678E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616521843C507009678E3 /* InfoPlist.strings */; };
+		7605AEB9184CC792001FFBC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767AA27218493A8700C8B6EF /* Foundation.framework */; };
+		7605AEDF184CD3B9001FFBC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
+		7605AEEF184CD433001FFBC4 /* OpenCash.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EFAEF018452C9D00F86487 /* OpenCash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7605AEF6184CE270001FFBC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
+		7605AF17184CE570001FFBC4 /* OCADocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 762922DC184431B100661F9F /* OCADocumentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7605AF18184CE570001FFBC4 /* OCAAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B4625E18442D8C00B15055 /* OCAAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7605AF19184CE65F001FFBC4 /* OCADocumentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 762922DD184431B100661F9F /* OCADocumentController.mm */; };
+		7605AF1A184CE660001FFBC4 /* OCAAccount.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76B4625F18442D8C00B15055 /* OCAAccount.mm */; };
+		7605AF1B184CE660001FFBC4 /* OCAAccountCppMapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76D14EBA1845734200B34D57 /* OCAAccountCppMapper.mm */; };
+		7605AF1C184CE667001FFBC4 /* OCADocumentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 762922DD184431B100661F9F /* OCADocumentController.mm */; };
+		7605AF1D184CE667001FFBC4 /* OCAAccount.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76B4625F18442D8C00B15055 /* OCAAccount.mm */; };
+		7605AF1E184CE667001FFBC4 /* OCAAccountCppMapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76D14EBA1845734200B34D57 /* OCAAccountCppMapper.mm */; };
+		7605AF71184CF4D6001FFBC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616521843C507009678E3 /* InfoPlist.strings */; };
 		76C6165F1843C507009678E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6165E1843C507009678E3 /* XCTest.framework */; };
 		76C616601843C507009678E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616491843C507009678E3 /* Cocoa.framework */; };
-		76C616631843C507009678E3 /* OpenCash-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C616461843C507009678E3 /* OpenCash-OSX.framework */; };
 		76C616691843C507009678E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C616671843C507009678E3 /* InfoPlist.strings */; };
 		76C6166B1843C507009678E3 /* OpenCash_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C6166A1843C507009678E3 /* OpenCash_FrameworkTests.m */; };
-		76D14EBB1845734200B34D57 /* OCAAccountCppMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D14EB91845734200B34D57 /* OCAAccountCppMapper.h */; };
-		76D14EBC1845734200B34D57 /* OCAAccountCppMapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 76D14EBA1845734200B34D57 /* OCAAccountCppMapper.mm */; };
-		76EFAEF118452C9D00F86487 /* OpenCash.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EFAEF018452C9D00F86487 /* OpenCash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		76C616611843C507009678E3 /* PBXContainerItemProxy */ = {
+		7605AEEA184CD3C7001FFBC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 76C6163D1843C507009678E3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 76C616451843C507009678E3;
-			remoteInfo = "OpenCash-Framework";
+			remoteGlobalIDString = 7605AEB7184CC791001FFBC4;
+			remoteInfo = "OpenCash-iOS";
+		};
+		7605AF15184CE50F001FFBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C6163D1843C507009678E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7605AEF4184CE270001FFBC4;
+			remoteInfo = "OpenCash-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		767AA26F18493A8700C8B6EF /* CopyFiles */ = {
+		7605AEB6184CC791001FFBC4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -50,14 +56,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7605AEB8184CC791001FFBC4 /* libOpenCash-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOpenCash-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7605AEDE184CD3B9001FFBC4 /* OpenCash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7605AEF5184CE270001FFBC4 /* libOpenCash-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOpenCash-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7605AF51184CF317001FFBC4 /* OpenCash-Universal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-Universal-Info.plist"; sourceTree = "<group>"; };
+		7605AF53184CF317001FFBC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7605AF55184CF317001FFBC4 /* OpenCash-Universal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCash-Universal-Prefix.pch"; sourceTree = "<group>"; };
+		7605AF56184CF317001FFBC4 /* OpenCash_Universal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCash_Universal.h; sourceTree = "<group>"; };
+		7605AF57184CF317001FFBC4 /* OpenCash_Universal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_Universal.m; sourceTree = "<group>"; };
 		762922DC184431B100661F9F /* OCADocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCADocumentController.h; sourceTree = "<group>"; };
 		762922DD184431B100661F9F /* OCADocumentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCADocumentController.mm; sourceTree = "<group>"; };
-		767AA27118493A8700C8B6EF /* libOpenCash-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOpenCash-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		767AA27218493A8700C8B6EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		767AA28218493A8700C8B6EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		76B4625E18442D8C00B15055 /* OCAAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAAccount.h; sourceTree = "<group>"; };
 		76B4625F18442D8C00B15055 /* OCAAccount.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCAAccount.mm; sourceTree = "<group>"; };
-		76C616461843C507009678E3 /* OpenCash-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "OpenCash-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C616491843C507009678E3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		76C6164C1843C507009678E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76C6164D1843C507009678E3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -76,19 +88,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		767AA26E18493A8700C8B6EF /* Frameworks */ = {
+		7605AEB5184CC791001FFBC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767AA27318493A8700C8B6EF /* Foundation.framework in Frameworks */,
+				7605AEB9184CC792001FFBC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76C616421843C507009678E3 /* Frameworks */ = {
+		7605AEDB184CD3B9001FFBC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C6164A1843C507009678E3 /* Cocoa.framework in Frameworks */,
+				7605AEDF184CD3B9001FFBC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7605AEF2184CE270001FFBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7605AEF6184CE270001FFBC4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +116,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C616631843C507009678E3 /* OpenCash-OSX.framework in Frameworks */,
 				76C616601843C507009678E3 /* Cocoa.framework in Frameworks */,
 				76C6165F1843C507009678E3 /* XCTest.framework in Frameworks */,
 			);
@@ -105,6 +124,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7605AF4F184CF317001FFBC4 /* OpenCash-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				7605AF56184CF317001FFBC4 /* OpenCash_Universal.h */,
+				7605AF57184CF317001FFBC4 /* OpenCash_Universal.m */,
+				7605AF50184CF317001FFBC4 /* Supporting Files */,
+			);
+			path = "OpenCash-Universal";
+			sourceTree = "<group>";
+		};
+		7605AF50184CF317001FFBC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7605AF51184CF317001FFBC4 /* OpenCash-Universal-Info.plist */,
+				7605AF52184CF317001FFBC4 /* InfoPlist.strings */,
+				7605AF55184CF317001FFBC4 /* OpenCash-Universal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		762922DB1844319200661F9F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +180,7 @@
 			children = (
 				76B4625C18442CB300B15055 /* Sources */,
 				76C616641843C507009678E3 /* Tests */,
+				7605AF4F184CF317001FFBC4 /* OpenCash-Universal */,
 				76C616481843C507009678E3 /* Frameworks */,
 				76C616471843C507009678E3 /* Products */,
 			);
@@ -149,9 +189,10 @@
 		76C616471843C507009678E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76C616461843C507009678E3 /* OpenCash-OSX.framework */,
 				76C6165D1843C507009678E3 /* OpenCashTests.xctest */,
-				767AA27118493A8700C8B6EF /* libOpenCash-iOS.a */,
+				7605AEB8184CC791001FFBC4 /* libOpenCash-iOS.a */,
+				7605AEDE184CD3B9001FFBC4 /* OpenCash.framework */,
+				7605AEF5184CE270001FFBC4 /* libOpenCash-OSX.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,27 +250,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		76C616431843C507009678E3 /* Headers */ = {
+		7605AEEE184CD428001FFBC4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B4626018442D8C00B15055 /* OCAAccount.h in Headers */,
-				76D14EBB1845734200B34D57 /* OCAAccountCppMapper.h in Headers */,
-				76EFAEF118452C9D00F86487 /* OpenCash.h in Headers */,
-				762922DE184431B100661F9F /* OCADocumentController.h in Headers */,
+				7605AEEF184CD433001FFBC4 /* OpenCash.h in Headers */,
+				7605AF18184CE570001FFBC4 /* OCAAccount.h in Headers */,
+				7605AF17184CE570001FFBC4 /* OCADocumentController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7605AEF3184CE270001FFBC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		767AA27018493A8700C8B6EF /* OpenCash-iOS */ = {
+		7605AEB7184CC791001FFBC4 /* OpenCash-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 767AA29518493A8700C8B6EF /* Build configuration list for PBXNativeTarget "OpenCash-iOS" */;
+			buildConfigurationList = 7605AED4184CC792001FFBC4 /* Build configuration list for PBXNativeTarget "OpenCash-iOS" */;
 			buildPhases = (
-				767AA26D18493A8700C8B6EF /* Sources */,
-				767AA26E18493A8700C8B6EF /* Frameworks */,
-				767AA26F18493A8700C8B6EF /* CopyFiles */,
+				7605AEB4184CC791001FFBC4 /* Sources */,
+				7605AEB5184CC791001FFBC4 /* Frameworks */,
+				7605AEB6184CC791001FFBC4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -237,26 +284,45 @@
 			);
 			name = "OpenCash-iOS";
 			productName = "OpenCash-iOS";
-			productReference = 767AA27118493A8700C8B6EF /* libOpenCash-iOS.a */;
+			productReference = 7605AEB8184CC791001FFBC4 /* libOpenCash-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		76C616451843C507009678E3 /* OpenCash-OSX */ = {
+		7605AEDD184CD3B9001FFBC4 /* OpenCash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-OSX" */;
+			buildConfigurationList = 7605AEE7184CD3BA001FFBC4 /* Build configuration list for PBXNativeTarget "OpenCash" */;
 			buildPhases = (
-				76C616411843C507009678E3 /* Sources */,
-				76C616421843C507009678E3 /* Frameworks */,
-				76C616431843C507009678E3 /* Headers */,
-				76C616441843C507009678E3 /* Resources */,
+				7605AEDA184CD3B9001FFBC4 /* Sources */,
+				7605AEDB184CD3B9001FFBC4 /* Frameworks */,
+				7605AEEE184CD428001FFBC4 /* Headers */,
+				7605AEDC184CD3B9001FFBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7605AF16184CE50F001FFBC4 /* PBXTargetDependency */,
+				7605AEEB184CD3C7001FFBC4 /* PBXTargetDependency */,
+			);
+			name = OpenCash;
+			productName = "OpenCash-Framework";
+			productReference = 7605AEDE184CD3B9001FFBC4 /* OpenCash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7605AEF4184CE270001FFBC4 /* OpenCash-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7605AF0F184CE271001FFBC4 /* Build configuration list for PBXNativeTarget "OpenCash-OSX" */;
+			buildPhases = (
+				7605AEF1184CE270001FFBC4 /* Sources */,
+				7605AEF2184CE270001FFBC4 /* Frameworks */,
+				7605AEF3184CE270001FFBC4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "OpenCash-OSX";
-			productName = "OpenCash-Framework";
-			productReference = 76C616461843C507009678E3 /* OpenCash-OSX.framework */;
-			productType = "com.apple.product-type.framework";
+			productName = "OpenCash-OSX";
+			productReference = 7605AEF5184CE270001FFBC4 /* libOpenCash-OSX.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		76C6165C1843C507009678E3 /* OpenCashTests */ = {
 			isa = PBXNativeTarget;
@@ -269,7 +335,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				76C616621843C507009678E3 /* PBXTargetDependency */,
 			);
 			name = OpenCashTests;
 			productName = "OpenCash-FrameworkTests";
@@ -287,7 +352,7 @@
 				ORGANIZATIONNAME = "Serge Gebhardt";
 				TargetAttributes = {
 					76C6165C1843C507009678E3 = {
-						TestTargetID = 76C616451843C507009678E3;
+						TestTargetID = 7605AEDD184CD3B9001FFBC4;
 					};
 				};
 			};
@@ -303,19 +368,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				767AA27018493A8700C8B6EF /* OpenCash-iOS */,
-				76C616451843C507009678E3 /* OpenCash-OSX */,
+				7605AEB7184CC791001FFBC4 /* OpenCash-iOS */,
+				7605AEF4184CE270001FFBC4 /* OpenCash-OSX */,
+				7605AEDD184CD3B9001FFBC4 /* OpenCash */,
 				76C6165C1843C507009678E3 /* OpenCashTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		76C616441843C507009678E3 /* Resources */ = {
+		7605AEDC184CD3B9001FFBC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C616541843C507009678E3 /* InfoPlist.strings in Resources */,
+				7605AF71184CF4D6001FFBC4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,23 +396,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		767AA26D18493A8700C8B6EF /* Sources */ = {
+		7605AEB4184CC791001FFBC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767AA29718493BEC00C8B6EF /* OCADocumentController.mm in Sources */,
-				767AA29818493BEC00C8B6EF /* OCAAccount.mm in Sources */,
-				767AA29918493BEC00C8B6EF /* OCAAccountCppMapper.mm in Sources */,
+				7605AF1C184CE667001FFBC4 /* OCADocumentController.mm in Sources */,
+				7605AF1D184CE667001FFBC4 /* OCAAccount.mm in Sources */,
+				7605AF1E184CE667001FFBC4 /* OCAAccountCppMapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76C616411843C507009678E3 /* Sources */ = {
+		7605AEDA184CD3B9001FFBC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D14EBC1845734200B34D57 /* OCAAccountCppMapper.mm in Sources */,
-				762922DF184431B100661F9F /* OCADocumentController.mm in Sources */,
-				76B4626118442D8C00B15055 /* OCAAccount.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7605AEF1184CE270001FFBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7605AF19184CE65F001FFBC4 /* OCADocumentController.mm in Sources */,
+				7605AF1A184CE660001FFBC4 /* OCAAccount.mm in Sources */,
+				7605AF1B184CE660001FFBC4 /* OCAAccountCppMapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,14 +434,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		76C616621843C507009678E3 /* PBXTargetDependency */ = {
+		7605AEEB184CD3C7001FFBC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76C616451843C507009678E3 /* OpenCash-OSX */;
-			targetProxy = 76C616611843C507009678E3 /* PBXContainerItemProxy */;
+			target = 7605AEB7184CC791001FFBC4 /* OpenCash-iOS */;
+			targetProxy = 7605AEEA184CD3C7001FFBC4 /* PBXContainerItemProxy */;
+		};
+		7605AF16184CE50F001FFBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7605AEF4184CE270001FFBC4 /* OpenCash-OSX */;
+			targetProxy = 7605AF15184CE50F001FFBC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7605AF52184CF317001FFBC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7605AF53184CF317001FFBC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		76C616521843C507009678E3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,7 +474,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		767AA28F18493A8700C8B6EF /* Debug */ = {
+		7605AED5184CC792001FFBC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -400,15 +486,22 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../libopencash/include",
+					"$(SRCROOT)/../libopencash/build/ios-universal/$(CONFIGURATION)/out/include",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../libopencash/build/ios-universal/$(CONFIGURATION)/out/lib";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		767AA29018493A8700C8B6EF /* Debug-static */ = {
+		7605AED6184CC792001FFBC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -416,28 +509,15 @@
 				DSTROOT = /tmp/OpenCash_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../libopencash/include",
+					"$(SRCROOT)/../libopencash/build/ios-universal/$(CONFIGURATION)/out/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = "Debug-static";
-		};
-		767AA29118493A8700C8B6EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
-				DSTROOT = /tmp/OpenCash_iOS.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../libopencash/build/ios-universal/$(CONFIGURATION)/out/lib";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -445,93 +525,75 @@
 			};
 			name = Release;
 		};
-		768BA27018457A1E0045C475 /* Debug-static */ = {
+		7605AEE8184CD3BA001FFBC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-Framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		7605AEE9184CD3BA001FFBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCash-Framework/OpenCash-Framework-Prefix.pch";
+				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-Framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		7605AF10184CE271001FFBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"$(SRCROOT)/../libopencash/include\"",
-					"\"$(SRCROOT)/../libopencash/build/$(CONFIGURATION)/out/include\"",
+					"$(SRCROOT)/../libopencash/include",
+					"$(SRCROOT)/../libopencash/build/ios/$(CONFIGURATION)/out/include",
 				);
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../libopencash/build/$(CONFIGURATION)/out/lib\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-lodb",
-					"-lodb-sqlite",
-					"-lPocoFoundation",
-					"-lopencash",
-					"-lsqlite3",
-				);
-				SDKROOT = macosx;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../libopencash/build/host/$(CONFIGURATION)/out/lib";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = "Debug-static";
+			name = Debug;
 		};
-		768BA27118457A1E0045C475 /* Debug-static */ = {
+		7605AF11184CE271001FFBC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
-				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-Framework-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = "Debug-static";
-		};
-		768BA27218457A1E0045C475 /* Debug-static */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Versions/A/OpenCash";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../libopencash/include",
+					"$(SRCROOT)/../libopencash/build/ios/$(CONFIGURATION)/out/include",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Supporting Files/OpenCash-FrameworkTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../libopencash/build/host/$(CONFIGURATION)/out/lib";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
-			name = "Debug-static";
+			name = Release;
 		};
 		76C6166C1843C507009678E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -564,22 +626,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"$(SRCROOT)/../libopencash/include\"",
-					"\"$(SRCROOT)/../libopencash/build/$(CONFIGURATION)/out/include\"",
-				);
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../libopencash/build/$(CONFIGURATION)/out/lib\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-lodb",
-					"-lodb-sqlite",
-					"-lPocoFoundation",
-					"-lopencash",
-					"-lsqlite3",
-				);
+				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -610,59 +660,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"$(SRCROOT)/../libopencash/include\"",
-					"\"$(SRCROOT)/../libopencash/build/$(CONFIGURATION)/out/include\"",
-				);
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../libopencash/build/$(CONFIGURATION)/out/lib\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_LDFLAGS = (
-					"-lodb",
-					"-lodb-sqlite",
-					"-lPocoFoundation",
-					"-lopencash",
-					"-lsqlite3",
-				);
+				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		76C6166F1843C507009678E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
-				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-Framework-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		76C616701843C507009678E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-Framework-Prefix.pch";
-				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-Framework-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
 		76C616721843C507009678E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Versions/A/OpenCash";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Contents/MacOS/OpenCash";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -684,7 +692,7 @@
 		76C616731843C507009678E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Versions/A/OpenCash";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Contents/MacOS/OpenCash";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -702,12 +710,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		767AA29518493A8700C8B6EF /* Build configuration list for PBXNativeTarget "OpenCash-iOS" */ = {
+		7605AED4184CC792001FFBC4 /* Build configuration list for PBXNativeTarget "OpenCash-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				767AA28F18493A8700C8B6EF /* Debug */,
-				767AA29018493A8700C8B6EF /* Debug-static */,
-				767AA29118493A8700C8B6EF /* Release */,
+				7605AED5184CC792001FFBC4 /* Debug */,
+				7605AED6184CC792001FFBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7605AEE7184CD3BA001FFBC4 /* Build configuration list for PBXNativeTarget "OpenCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7605AEE8184CD3BA001FFBC4 /* Debug */,
+				7605AEE9184CD3BA001FFBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7605AF0F184CE271001FFBC4 /* Build configuration list for PBXNativeTarget "OpenCash-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7605AF10184CE271001FFBC4 /* Debug */,
+				7605AF11184CE271001FFBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -716,18 +741,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76C6166C1843C507009678E3 /* Debug */,
-				768BA27018457A1E0045C475 /* Debug-static */,
 				76C6166D1843C507009678E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76C6166E1843C507009678E3 /* Build configuration list for PBXNativeTarget "OpenCash-OSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76C6166F1843C507009678E3 /* Debug */,
-				768BA27118457A1E0045C475 /* Debug-static */,
-				76C616701843C507009678E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -736,7 +750,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76C616721843C507009678E3 /* Debug */,
-				768BA27218457A1E0045C475 /* Debug-static */,
 				76C616731843C507009678E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
