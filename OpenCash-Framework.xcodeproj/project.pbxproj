@@ -47,11 +47,6 @@
 		7605AEB8184CC791001FFBC4 /* libOpenCash-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOpenCash-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7605AEDE184CD3B9001FFBC4 /* OpenCash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7605AEF5184CE270001FFBC4 /* libOpenCash-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOpenCash-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7605AF51184CF317001FFBC4 /* OpenCash-Universal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-Universal-Info.plist"; sourceTree = "<group>"; };
-		7605AF53184CF317001FFBC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7605AF55184CF317001FFBC4 /* OpenCash-Universal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCash-Universal-Prefix.pch"; sourceTree = "<group>"; };
-		7605AF56184CF317001FFBC4 /* OpenCash_Universal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCash_Universal.h; sourceTree = "<group>"; };
-		7605AF57184CF317001FFBC4 /* OpenCash_Universal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_Universal.m; sourceTree = "<group>"; };
 		762922DC184431B100661F9F /* OCADocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCADocumentController.h; sourceTree = "<group>"; };
 		762922DD184431B100661F9F /* OCADocumentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCADocumentController.mm; sourceTree = "<group>"; };
 		767AA27218493A8700C8B6EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,26 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7605AF4F184CF317001FFBC4 /* OpenCash-Universal */ = {
-			isa = PBXGroup;
-			children = (
-				7605AF56184CF317001FFBC4 /* OpenCash_Universal.h */,
-				7605AF57184CF317001FFBC4 /* OpenCash_Universal.m */,
-				7605AF50184CF317001FFBC4 /* Supporting Files */,
-			);
-			path = "OpenCash-Universal";
-			sourceTree = "<group>";
-		};
-		7605AF50184CF317001FFBC4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7605AF51184CF317001FFBC4 /* OpenCash-Universal-Info.plist */,
-				7605AF52184CF317001FFBC4 /* InfoPlist.strings */,
-				7605AF55184CF317001FFBC4 /* OpenCash-Universal-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		762922DB1844319200661F9F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +143,6 @@
 			children = (
 				76B4625C18442CB300B15055 /* Sources */,
 				76C616641843C507009678E3 /* Tests */,
-				7605AF4F184CF317001FFBC4 /* OpenCash-Universal */,
 				76C616481843C507009678E3 /* Frameworks */,
 				76C616471843C507009678E3 /* Products */,
 			);
@@ -469,14 +443,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7605AF52184CF317001FFBC4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7605AF53184CF317001FFBC4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		76C616521843C507009678E3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
