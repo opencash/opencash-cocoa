@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E63277E6-3F14-49BE-9E89-43EE4BE50100</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenCash-Framework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>42F8E1DF-5777-4115-8435-4305E37BDD30</key>
+		<string>https://github.com/opencash/opencash.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>opencash-cocoa/OpenCash-Framework.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42F8E1DF-5777-4115-8435-4305E37BDD30</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/opencash/opencash.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>42F8E1DF-5777-4115-8435-4305E37BDD30</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42F8E1DF-5777-4115-8435-4305E37BDD30</string>
+			<key>IDESourceControlWCCName</key>
+			<string>opencash</string>
+		</dict>
+	</array>
+</dict>
+</plist>
