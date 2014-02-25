@@ -10,6 +10,7 @@
 #import <opencash/controller/DocumentController.h>
 #import <opencash/model/Account.h>
 #import <opencash/model/AccountsMeta.h>
+#import <opencash/model/TransactionsMeta.h>
 
 @interface OCADocumentController ()
 
@@ -39,7 +40,7 @@
 {
   NSMutableArray *ret = [NSMutableArray array];
   auto accounts = _docController->retrieveAccounts();
-  for (auto & account : *accounts) {
+  for (auto & account : accounts) {
     [ret addObject:[[OCAAccount alloc] initWithAccount:account]];
   }
   return ret;

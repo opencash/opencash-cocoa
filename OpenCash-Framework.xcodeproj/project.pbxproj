@@ -644,7 +644,7 @@
 		76C616721843C507009678E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Contents/MacOS/OpenCash";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/OpenCash";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -666,7 +666,7 @@
 		76C616731843C507009678E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/Contents/MacOS/OpenCash";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCash.framework/OpenCash";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
